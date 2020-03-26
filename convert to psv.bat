@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v h264_amf -b:v 600000 -s 960x544 "PSV_%~n1.mp4"
