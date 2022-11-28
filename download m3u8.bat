@@ -1,0 +1,1 @@
+ffmpeg -i "playlist url" -c copy -bsf:a aac_adtstoasc output.mp4
